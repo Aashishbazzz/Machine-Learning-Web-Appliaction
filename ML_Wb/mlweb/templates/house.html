@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+	<h2>HTML Forms</h2>
+
+	<form action="/house">
+		<label>Area :</label><br>
+		<select name="area">
+			<option value="Anna Nagar">Anna Nagar</option>
+			<option value="Chrompet">Chrompet</option>
+			<option value="KK Nagar">KK Nagar</option>
+			<option value="Karapakkam">Karapakkam</option>
+			<option value="T Nagar">T Nagar</option>
+			<option value="Velachery">Velachery</option>
+		</select><br><br>
+		
+		<label>Int Sqft :</label><br>
+			<input type="number" name="int_sqft"><br><br>
+			
+		<label>Distance mainroad :</label><br>
+			<input type="number" name="dist_mainroad"><br><br>
+			
+		<label>No of bedroom:</label><br>
+			<input type="number" name="n_bedroom"><br><br>
+			
+		<label>Mo of bathroom :</label><br>
+			<input type="number" name="n_bathroom"><br><br>
+			
+		<label>No of room :</label><br>
+			<input type="number" name="n_room" ><br><br>
+			
+		<label>Sales condition :</label><br>
+		<select name="sale_cond">
+			<option value="AdjLand">AdjLand</option>
+			<option value="Family">Family</option>
+			<option value="Normal Sale">Normal Sale</option>
+			<option value="Partial">Partial</option>
+		</select><br><br>
+			
+		<label>Parking Facility :</label><br>
+		<select name="park_facil">
+			<option value="YES">YES</option>
+			<option value="NO">NO</option>
+		</select><br><br>
+			
+		<label>Building Type:</label><br>
+		<select name="buildtype">
+			<option value="House">House</option>
+			<option value="Others">Others</option>
+		</select><br><br>
+		
+		<label>Utility Available:</label><br>
+		<select name="utility_avail">
+			<option value="ELO">ELO</option>
+			<option value="NoSeWa">NoSeWa</option>
+			<option value="NoSewr">NoSewr</option>
+		</select><br><br>
+			
+		<label>Street :</label><br>
+		<select name="street">
+			<option value="No Access">No Access</option>
+			<option value="Paved">Paved</option>
+		</select><br><br>
+			
+		<label for="lname">Last name:</label><br>
+		<select name="mzzone">
+			<option value="C">C</option>
+			<option value="I">I</option>
+			<option value="RH">RH</option>
+			<option value="RL">RL</option>
+			<option value="RM">RM</option>
+		</select><br><br>
+		
+		<label>Room Quality score 1-5:</label><br>
+			<input type="number" name="qs_rooms"><br><br>
+			
+		<label>Bathroom Quality score 1-5</label></label><br>
+			<input type="number" name="qs_bathroom"><br><br>
+			
+		<label>Bedroom Quality score 1-5</label></label><br>
+			<input type="number" name="qs_bedroom"><br><br>
+			
+		<label>Overall Quality score 1-5</label></label><br>
+			<input type="number" name="qs_overall"><br><br>
+			
+		<label>Commission :</label><br>
+			<input type="number" name="commis"><br><br>
+			
+		<button type ="submit">Predict the price</button>
+	</form> 
+
+
+</body>
+</html>
